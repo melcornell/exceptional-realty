@@ -17,7 +17,12 @@
 	</head>
 	<body>
 	<!-- The body is the entire viewable area of the web page. For examples, we can see text, images, links, and media. -->
+		<div id="social clearfix">
+			<a href="#">Twitter</a>
+			<a href="#">Facebook</a>
+			<a href="#">Google +</a>
 		<header>
+			<div class ="wrapper">
 				<div id="logo">
 				<h1>Exceptional</h1>
 				<h2>Realty Group</h2>
@@ -32,10 +37,12 @@
 				<a href="contact.html">Contact</a>
 				<a href="https://hud.gov" target="_blank">H.U.D.</a>
 			</nav>	
+		</div> <!-- closing the wrapper-->
 		
 		</header>
-
-	<section id="featured-property"> 
+			
+	<div class ="wrapper clearix">
+	<section id="featured-property" class ="col-3 first"> 
 		<figure>
 			<img src="images/intro-pic.jpg" alt="A beautiful living room" "Welcome to Exceptional Realty Group">
 
@@ -55,7 +62,7 @@
 	</section>
 	
 	<!--promo-video-->
-	<section id="promotional">
+	<section id="promotional" class = "col-2 first">
 		<figure>
 			<video controls>
 				<source src="videos/real-estate.mp4" type="video/mp4">
@@ -66,14 +73,58 @@
 		</figure>
 	</section>
 
+
+		<section id = "news" class="col-1">
+			<h3>Company News</h3>
+			<p>Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+		</section>
+	</div> <!-- closing the wrapper-->
+
+	<section id="details">
+	<div class="wrapper clearfix">
+		<div class="col-1 first">
+			<h3>Contact</h3>
+			<p>
+				email: <a href="mailto:info@exceptionalrealty.com">
+				info@exceptionalrealty.com</a> <br>
+				phone: +1 710 555 1234
+			</p>
+			<h3> Correspondence </h3>
+			<address>
+				Exceptional Realty <br>
+				P.O. Box 5555 <br>
+				Brooklyn, NY11201
+			</address>
+		</div>
+
+		<div class="col-1">
+		<h3> Links </h3>
+		<p>
+			<a href="#" target= "_blank">Home Restoration</a> <br>
+			<a href="#" target= "_blank">Affordable Mortgages</a> <br>
+			<a href="#" target= "_blank">Professional Moving Crew</a> <br>
+		</p>
+		</div>
+
+		<div class="col-1">
+			<h3> Follow </h3>
+		<p>
+			<a href="#" target= "_blank">Youtube</a> <br>
+			<a href="#" target= "_blank">Facebook</a> <br>
+			<a href="#" target= "_blank">Twitter</a> <br>
+		</p>
+		</div>
+
+	</div> <!-- closing the wrapper-->
+	</section>
+
+
+
 	<footer>
 		&copy; 2014 Exceptional Realty. All Rights Reserved.
 
 	</footer>
 
-
 	</body>
-
-
 
 </html>
